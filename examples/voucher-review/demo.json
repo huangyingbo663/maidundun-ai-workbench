@@ -1,0 +1,86 @@
+{
+  "start": "2026-05-01",
+  "end": "2026-05-07",
+  "paid": [
+    {
+      "voucher": "A",
+      "order": "OLD",
+      "paid_at": "2026-04-27 09:00:00"
+    },
+    {
+      "voucher": "B",
+      "order": "PAIR",
+      "paid_at": "2026-05-01 09:00:00"
+    },
+    {
+      "voucher": "C",
+      "order": "PAIR",
+      "paid_at": "2026-05-01 09:00:00"
+    },
+    {
+      "voucher": "D",
+      "order": "D",
+      "paid_at": "2026-05-04 09:00:00"
+    },
+    {
+      "voucher": "E",
+      "order": "E",
+      "paid_at": "2026-05-05 09:00:00"
+    },
+    {
+      "voucher": "F",
+      "order": "F",
+      "paid_at": "2026-05-09 09:00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "voucher": "A",
+      "at": "2026-05-02 12:00:00",
+      "action": "redeem"
+    },
+    {
+      "id": "evt-2",
+      "voucher": "B",
+      "at": "2026-05-03 12:00:00",
+      "action": "redeem"
+    },
+    {
+      "id": "evt-3",
+      "voucher": "B",
+      "at": "2026-05-04 12:00:00",
+      "action": "reverse"
+    },
+    {
+      "id": "evt-4",
+      "voucher": "B",
+      "at": "2026-05-05 12:00:00",
+      "action": "redeem"
+    },
+    {
+      "id": "evt-5",
+      "voucher": "C",
+      "at": "2026-05-05 12:00:00",
+      "action": "refund"
+    },
+    {
+      "id": "evt-6",
+      "voucher": "D",
+      "at": "2026-05-06 12:00:00",
+      "action": "redeem"
+    },
+    {
+      "id": "evt-6",
+      "voucher": "D",
+      "at": "2026-05-06 12:00:00",
+      "action": "redeem"
+    },
+    {
+      "id": "evt-7",
+      "voucher": "E",
+      "at": "2026-05-09 12:00:00",
+      "action": "redeem"
+    }
+  ]
+}

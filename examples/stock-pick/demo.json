@@ -1,0 +1,88 @@
+{
+  "threshold": 30,
+  "unit": "件",
+  "store_as_of": "2025-03-08T11:30:00+08:00",
+  "cold_as_of": "2025-03-08T08:00:00+08:00",
+  "items": [
+    {
+      "sku": "DEMO-A",
+      "name": "晨雾方糕",
+      "store": 29,
+      "cold": 12,
+      "reserved": 2,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-B",
+      "name": "琥珀小枕",
+      "store": 4,
+      "cold": 7,
+      "reserved": 2,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-C",
+      "name": "月纹薄饼",
+      "store": 30,
+      "cold": 25,
+      "reserved": 0,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-D",
+      "name": "银杏方酥",
+      "store": 2,
+      "cold": 0,
+      "reserved": 0,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-E",
+      "name": "纸舟卷",
+      "store": 12,
+      "cold": 6,
+      "reserved": 6,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-F",
+      "name": "星窗脆片",
+      "store": -2,
+      "cold": 9,
+      "reserved": 0,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-G",
+      "name": "小岛方块",
+      "store": 5,
+      "cold": null,
+      "reserved": 0,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-H",
+      "name": "杏云圆饼",
+      "store": 5,
+      "cold": 10,
+      "reserved": 0,
+      "in_transit": 4
+    },
+    {
+      "sku": "DEMO-J",
+      "name": "春桥小点",
+      "store": 5,
+      "cold": 15,
+      "reserved": 0,
+      "in_transit": 0
+    },
+    {
+      "sku": "DEMO-J",
+      "name": "春桥小点",
+      "store": 6,
+      "cold": 15,
+      "reserved": 0,
+      "in_transit": 0
+    }
+  ]
+}

@@ -1,15 +1,18 @@
-![麦囤囤 AI 工坊：六种内容风格、十六种方法和离线拍摄卡工具](assets/content-workbench.png)
+![麦囤囤 AI 工坊：内容创作与传播、门店经营与营销](assets/workbench.png)
 
 # 麦囤囤 · AI工坊
 
-一家实体店准备发内容时，通常已经有货、有照片、有想说的话，难的是选一种合适的做法，再让同事照着拍出来。这里整理了麦囤囤已经用过的图文、实拍和口播方法，附可复制提示词、检查办法及一个离线拍摄卡工具。
+门店同事今天可能要拍一条产品视频，也可能要去冷库提货，或弄清本周卖出的团购券究竟用了多少。这里把做过的工作整理成操作卡和离线工具，每个场景都可以先看示例，再用自己的材料复做。
 
-[English quick start](README.en.md) · [六种风格与十六种方法](docs/content-paths.md) · [爆款雷达与内容研究雷达](docs/research-radar.md)
+[门店经营与营销](docs/store-operations.md) · [English quick start](README.en.md) · [六种风格与十六种方法](docs/content-paths.md) · [爆款雷达与内容研究雷达](docs/research-radar.md)
 
 ## 从今天要做的事开始
 
 | 你手头有什么 | 打开哪一页 |
 | --- | --- |
+| 门店和冷库各有一份库存表 | [提货判断与参考数量](examples/stock-pick/README.md) |
+| 一份购券记录、一份核销流水 | [按事件与购券批次对账](examples/voucher-review/README.md) |
+| 正准备团购、选推广视频或复盘加购 | [经营与营销操作卡](docs/store-operations.md) |
 | 几款产品的实拍，想让顾客容易挑选 | [小红书实拍图文](docs/方法01-小红书实拍图文.md) |
 | 一张有动作的照片，想写一句有人情味的话 | [实拍与走心文案](docs/方法03-实拍与走心文案.md) |
 | 一条喜欢的参考，想知道该学哪几镜 | [参考研究](docs/research-radar.md)和[拍摄卡 Skill](skills/reference-to-shot-cards/SKILL.md) |
