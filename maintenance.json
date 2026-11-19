@@ -39,7 +39,18 @@
     "examples/subtitle-notes/expected.txt",
     "docs/office-automation.md",
     "docs/office-ocr-review.md",
-    "assets/ocr-practice.png"
+    "assets/ocr-practice.png",
+    "examples/work-brief/plan.py",
+    "examples/work-brief/README.md",
+    "examples/work-brief/sample.json",
+    "examples/work-brief/expected.md",
+    "examples/handoff-check/check_handoff.py",
+    "examples/handoff-check/README.md",
+    "examples/handoff-check/sample.json",
+    "examples/handoff-check/expected.json",
+    "docs/team-collaboration.md",
+    "docs/team-relay.md",
+    "skills/team-handoff/SKILL.md"
   ],
   "git_restore": "required",
   "samples": [
@@ -175,6 +186,43 @@
           "path": "subtitle-notes.txt",
           "format": "text-lf",
           "reference": "examples/subtitle-notes/expected.txt"
+        }
+      ]
+    },
+    {
+      "id": "work-brief",
+      "entrypoint": "examples/work-brief/plan.py",
+      "isolated_cwd": true,
+      "args": [
+        "{root}/examples/work-brief/sample.json",
+        "--out",
+        "work-board.md"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "work-board.md",
+          "format": "text-lf",
+          "reference": "examples/work-brief/expected.md"
+        }
+      ]
+    },
+    {
+      "id": "handoff-check",
+      "entrypoint": "examples/handoff-check/check_handoff.py",
+      "isolated_cwd": true,
+      "args": [
+        "--input",
+        "{root}/examples/handoff-check/sample.json",
+        "--output",
+        "result.json"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "result.json",
+          "format": "canonical-json",
+          "reference": "examples/handoff-check/expected.json"
         }
       ]
     }

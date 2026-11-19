@@ -1,15 +1,16 @@
-![麦囤囤 AI 工坊：内容创作、门店经营、设计培训与办公自动化](assets/workbench.png)
+![麦囤囤 AI 工坊：内容创作、门店经营、设计与培训、办公自动化、数字员工协作](assets/workbench.png)
 
 # 麦囤囤 · AI工坊
 
-拍一条视频、去冷库提货、交一份客户确认单，或核对刚复制的一批文件，都可以从下面的场景找到做法。这里把做过的工作整理成操作卡和离线工具，每个场景都可以先看示例，再用自己的材料复做。
+从一家面包店的实际工作出发，把做过的事情整理成操作卡、提示词和离线工具。你可以选一个场景，照着示例跑通，再把材料换成自己的。
 
-[办公与重复任务自动化](docs/office-automation.md) · [设计、文档与培训交付](docs/design-delivery.md) · [门店经营与营销](docs/store-operations.md) · [English quick start](README.en.md) · [六种风格与十六种方法](docs/content-paths.md) · [爆款雷达与内容研究雷达](docs/research-radar.md)
+[内容创作与传播](docs/content-paths.md) · [门店经营与营销](docs/store-operations.md) · [设计、文档与培训](docs/design-delivery.md) · [办公自动化](docs/office-automation.md) · [数字员工与项目协作](docs/team-collaboration.md) · [English](README.en.md)
 
 ## 从今天要做的事开始
 
 | 你手头有什么 | 打开哪一页 |
 | --- | --- |
+| 多人或多个会话做同一件事，需要分工、复核或换人 | [用一张活动指引卡跟做一次接力](docs/team-relay.md) |
 | 文件刚复制完，或要把字幕整理成核对稿 | [办公自动化工具与练习](docs/office-automation.md) |
 | 要给客户发确认单，给员工做培训，或准备送印 | [按交付对象选工具与方法](docs/design-delivery.md) |
 | 门店和冷库各有一份库存表 | [提货判断与参考数量](examples/stock-pick/README.md) |
@@ -34,7 +35,9 @@ python examples/shot-cards/generate.py --input examples/shot-cards/demo.json --o
 
 ## 这个版本验证了什么
 
-原项目有五种风格和一条来源研究链完成了更换输入的独立复做，各项媒体验证范围见方法索引。本仓库用原创示例重新验证拍摄卡工具。AI 双人对白等分支保留流程和待验证状态。阅读文档、运行示例与维护检查均无需付费模型或平台账号。
+九个离线示例用随包输入生成结果，并与已复核的预期输出比较。第五个场景另提供角色提示词、换人接班与文稿改版练习。
+
+内容创作原项目有五种风格和一条来源研究链完成了更换输入的独立复做，各项媒体验证范围见方法索引。本仓库用原创示例重新验证拍摄卡工具。AI 双人对白等分支保留流程和待验证状态。阅读文档、运行示例与维护检查均无需付费模型或平台账号。
 
 ## 维护与反馈
 

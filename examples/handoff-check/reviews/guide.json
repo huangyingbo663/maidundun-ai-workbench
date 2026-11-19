@@ -1,0 +1,11 @@
+{
+  "task": "copy",
+  "owner": "writer",
+  "reviewer": "checker",
+  "gate": "file",
+  "criterion": "逐条核对领取地点、体验位置和归还地点，读者能按顺序走完。",
+  "artifact": "artifacts/guide.md",
+  "sha256": "d71f25ea9e236a5e0acbea8ff41bd6d8813a57b363350522749f2aa8242fda4e",
+  "decision": "approved",
+  "observation": "逐行读过三步。第一步到咨询台领取，第二步到入口旁的阅读区，第三步回咨询台归还；地点和顺序均清楚。"
+}

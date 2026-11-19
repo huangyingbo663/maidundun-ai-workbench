@@ -1,0 +1,4 @@
+interface:
+  display_name: "协作分工与接班"
+  short_description: "按产物分配唯一写者，用当前版本的复核记录把任务交到下一位同事手上"
+  default_prompt: "请使用 $team-handoff，按现有产物安排这项任务，写明各自能改的文件、验收依据和下一步。"
