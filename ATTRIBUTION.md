@@ -4,4 +4,6 @@
 
 项目标记、横幅及“麦囤囤”名称用于识别本项目，品牌权利保留。横幅使用 Noto Sans SC 排字，仓库仅提供渲染后的图像。[字体项目](https://github.com/notofonts/noto-cjk)
 
+原创 OCR 教学样张 `assets/ocr-practice.png` 随方法文档采用 CC BY 4.0；图中文字和数据均为虚构，使用 Noto Sans SC 排字。
+
 读者自行提供或选择的照片、人物肖像、视频、音乐和参考作品按各自的来源、权利与授权使用。

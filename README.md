@@ -1,15 +1,16 @@
-![麦囤囤 AI 工坊：内容创作、门店经营、设计与培训](assets/workbench.png)
+![麦囤囤 AI 工坊：内容创作、门店经营、设计培训与办公自动化](assets/workbench.png)
 
 # 麦囤囤 · AI工坊
 
-门店同事今天可能要拍一条产品视频，也可能要去冷库提货，也可能要把客户确认单和上岗练习交到对的人手里。这里把做过的工作整理成操作卡和离线工具，每个场景都可以先看示例，再用自己的材料复做。
+拍一条视频、去冷库提货、交一份客户确认单，或核对刚复制的一批文件，都可以从下面的场景找到做法。这里把做过的工作整理成操作卡和离线工具，每个场景都可以先看示例，再用自己的材料复做。
 
-[设计、文档与培训交付](docs/design-delivery.md) · [门店经营与营销](docs/store-operations.md) · [English quick start](README.en.md) · [六种风格与十六种方法](docs/content-paths.md) · [爆款雷达与内容研究雷达](docs/research-radar.md)
+[办公与重复任务自动化](docs/office-automation.md) · [设计、文档与培训交付](docs/design-delivery.md) · [门店经营与营销](docs/store-operations.md) · [English quick start](README.en.md) · [六种风格与十六种方法](docs/content-paths.md) · [爆款雷达与内容研究雷达](docs/research-radar.md)
 
 ## 从今天要做的事开始
 
 | 你手头有什么 | 打开哪一页 |
 | --- | --- |
+| 文件刚复制完，或要把字幕整理成核对稿 | [办公自动化工具与练习](docs/office-automation.md) |
 | 要给客户发确认单，给员工做培训，或准备送印 | [按交付对象选工具与方法](docs/design-delivery.md) |
 | 门店和冷库各有一份库存表 | [提货判断与参考数量](examples/stock-pick/README.md) |
 | 一份购券记录、一份核销流水 | [按事件与购券批次对账](examples/voucher-review/README.md) |

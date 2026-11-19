@@ -30,7 +30,16 @@
     "examples/sales-sheet/demo.json",
     "examples/sales-sheet/README.md",
     "examples/sales-sheet/expected.html",
-    "docs/design-delivery.md"
+    "docs/design-delivery.md",
+    "examples/copy-check/compare.py",
+    "examples/copy-check/README.md",
+    "examples/copy-check/expected.json",
+    "examples/subtitle-notes/convert.py",
+    "examples/subtitle-notes/README.md",
+    "examples/subtitle-notes/expected.txt",
+    "docs/office-automation.md",
+    "docs/office-ocr-review.md",
+    "assets/ocr-practice.png"
   ],
   "git_restore": "required",
   "samples": [
@@ -126,6 +135,46 @@
           "path": "sales-sheet.html",
           "format": "text-lf",
           "reference": "examples/sales-sheet/expected.html"
+        }
+      ]
+    },
+    {
+      "id": "copy-check",
+      "entrypoint": "examples/copy-check/compare.py",
+      "isolated_cwd": true,
+      "args": [
+        "--source",
+        "{root}/examples/copy-check/demo/source",
+        "--copy",
+        "{root}/examples/copy-check/demo/copy",
+        "--output",
+        "copy-report.json"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "copy-report.json",
+          "format": "canonical-json",
+          "reference": "examples/copy-check/expected.json"
+        }
+      ]
+    },
+    {
+      "id": "subtitle-notes",
+      "entrypoint": "examples/subtitle-notes/convert.py",
+      "isolated_cwd": true,
+      "args": [
+        "--input",
+        "{root}/examples/subtitle-notes/demo.txt",
+        "--output",
+        "subtitle-notes.txt"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "subtitle-notes.txt",
+          "format": "text-lf",
+          "reference": "examples/subtitle-notes/expected.txt"
         }
       ]
     }

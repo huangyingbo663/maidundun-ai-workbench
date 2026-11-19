@@ -1,0 +1,36 @@
+{
+  "algorithm": "SHA-256",
+  "result": "match",
+  "summary": {
+    "same": 2,
+    "missing": 0,
+    "extra": 0,
+    "changed": 0
+  },
+  "files": [
+    {
+      "path": "brief.txt",
+      "status": "same",
+      "source": {
+        "bytes": 76,
+        "sha256": "1447747a775b818ef165943539e43bcfaa1e7e1db85b9406c4d1cc4264b93434"
+      },
+      "copy": {
+        "bytes": 76,
+        "sha256": "1447747a775b818ef165943539e43bcfaa1e7e1db85b9406c4d1cc4264b93434"
+      }
+    },
+    {
+      "path": "labels/card.txt",
+      "status": "same",
+      "source": {
+        "bytes": 30,
+        "sha256": "3b4bd693aa4c4bca3ea30ec22ee70e791a4165d9be111cf580d8d3e1d06e08af"
+      },
+      "copy": {
+        "bytes": 30,
+        "sha256": "3b4bd693aa4c4bca3ea30ec22ee70e791a4165d9be111cf580d8d3e1d06e08af"
+      }
+    }
+  ]
+}
