@@ -227,19 +227,19 @@
     },
     {
       "destination": "docs/方法01-小红书实拍图文.md",
-      "sha256": "d80c3a14fbfcdd9be9797bfa538fcf57a3f6e98cd03bc476d8d357e7bef41f66",
+      "sha256": "335a0bfac4bf506dfaee3a3a86ba7da75d69b6603dce2653c17958d511240236",
       "license": "CC-BY-4.0",
       "purpose": "项目说明、方法卡、提示词或维护手册",
       "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "294dbe372475bef58f88929766847787bdff7aa59b99e7dbc2b9fe3e4299991b"
+      "sha256_lf": "335a0bfac4bf506dfaee3a3a86ba7da75d69b6603dce2653c17958d511240236"
     },
     {
       "destination": "docs/方法03-实拍与走心文案.md",
-      "sha256": "1d77a020a44dff09175d764252f9dbf03fd59bbf0e95fdb082963699cf20ba7d",
+      "sha256": "c8dfc3e3a7a2e0332c74aa40f927449b3d002085a41be590d737b956bad58322",
       "license": "CC-BY-4.0",
       "purpose": "项目说明、方法卡、提示词或维护手册",
       "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "8a7c50f8a9801166edc8eff47fff98dc0975995d41f307856f48980f977e99a7"
+      "sha256_lf": "c8dfc3e3a7a2e0332c74aa40f927449b3d002085a41be590d737b956bad58322"
     },
     {
       "destination": "examples/shot-cards/README.md",
