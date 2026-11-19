@@ -1,0 +1,21 @@
+{
+  "date": "2025-04-16",
+  "revision": "演示 v1",
+  "items": [
+    {
+      "name": "微光笔记本",
+      "spec": "A6 · 单本",
+      "quantity": 3,
+      "price": "8.35"
+    },
+    {
+      "name": "纸帆书签",
+      "spec": "双枚装 · 一份",
+      "quantity": 4,
+      "price": "2.10"
+    }
+  ],
+  "shipping": {
+    "mode": "separate"
+  }
+}

@@ -50,7 +50,7 @@ jobs:
       - name: Run offline example tests
         shell: bash
         run: |
-          for suite in examples/shot-cards/tests examples/stock-pick/tests examples/voucher-review/tests; do
+          for suite in examples/shot-cards/tests examples/stock-pick/tests examples/voucher-review/tests examples/training-sheet/tests examples/sales-sheet/tests; do
             python -B -X utf8 -m unittest discover -s "$suite"
           done
       - name: Preserve readable report in run summary

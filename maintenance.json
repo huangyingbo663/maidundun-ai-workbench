@@ -21,7 +21,16 @@
     "examples/voucher-review/README.md",
     "examples/voucher-review/demo.json",
     "examples/voucher-review/expected.json",
-    "docs/store-operations.md"
+    "docs/store-operations.md",
+    "examples/training-sheet/generate.py",
+    "examples/training-sheet/demo.json",
+    "examples/training-sheet/README.md",
+    "examples/training-sheet/expected.html",
+    "examples/sales-sheet/generate.py",
+    "examples/sales-sheet/demo.json",
+    "examples/sales-sheet/README.md",
+    "examples/sales-sheet/expected.html",
+    "docs/design-delivery.md"
   ],
   "git_restore": "required",
   "samples": [
@@ -79,6 +88,44 @@
           "path": "voucher-review.json",
           "format": "canonical-json",
           "reference": "examples/voucher-review/expected.json"
+        }
+      ]
+    },
+    {
+      "id": "training-sheet",
+      "entrypoint": "examples/training-sheet/generate.py",
+      "isolated_cwd": true,
+      "args": [
+        "--input",
+        "{root}/examples/training-sheet/demo.json",
+        "--output",
+        "training-sheet.html"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "training-sheet.html",
+          "format": "text-lf",
+          "reference": "examples/training-sheet/expected.html"
+        }
+      ]
+    },
+    {
+      "id": "sales-sheet",
+      "entrypoint": "examples/sales-sheet/generate.py",
+      "isolated_cwd": true,
+      "args": [
+        "--input",
+        "{root}/examples/sales-sheet/demo.json",
+        "--output",
+        "sales-sheet.html"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "sales-sheet.html",
+          "format": "text-lf",
+          "reference": "examples/sales-sheet/expected.html"
         }
       ]
     }
