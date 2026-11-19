@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "required_files": [
+    "README.md",
+    "LICENSE",
+    ".gitattributes",
+    "maintenance.json",
+    "tools/maintain.py",
+    "docs/maintenance.md",
+    ".github/workflows/maintenance.yml",
+    ".github/dependabot.yml",
+    "examples/shot-cards/generate.py",
+    "examples/shot-cards/demo.json",
+    "examples/shot-cards/demo.html",
+    "skills/reference-to-shot-cards/SKILL.md"
+  ],
+  "git_restore": "required",
+  "samples": [
+    {
+      "id": "shot-cards",
+      "entrypoint": "examples/shot-cards/generate.py",
+      "isolated_cwd": true,
+      "args": ["--input", "{root}/examples/shot-cards/demo.json", "--output", "shot-cards-demo.html"],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {"path": "shot-cards-demo.html", "format": "text-lf", "reference": "examples/shot-cards/demo.html"}
+      ]
+    }
+  ]
+}

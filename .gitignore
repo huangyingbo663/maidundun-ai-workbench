@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+/shot-cards-demo.html
+/maintenance-output/
