@@ -1,0 +1,117 @@
+{
+  "verification_kind": "author_check_not_independent_release_approval",
+  "platform_tested": "Windows",
+  "python_tested": "3.14.3",
+  "runtime_dependencies": "Python 3.10+ standard library only",
+  "command": "python -B -m unittest discover -s examples/shot-cards/tests -v",
+  "result": {
+    "tests": 14,
+    "passed": 13,
+    "skipped": 1,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "test_clean_copied_cli_without_site_packages",
+      "status": "passed"
+    },
+    {
+      "name": "test_changed_product_and_timing",
+      "status": "passed"
+    },
+    {
+      "name": "test_missing_field_does_not_create_output",
+      "status": "passed"
+    },
+    {
+      "name": "test_existing_output_retained_byte_for_byte",
+      "status": "passed"
+    },
+    {
+      "name": "test_paths_cannot_escape_working_directory",
+      "status": "passed"
+    },
+    {
+      "name": "test_reserved_or_non_html_names_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_missing_output_parent_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_symlink_parent_rejected_when_os_allows_links",
+      "status": "skipped_os_symlink_permission"
+    },
+    {
+      "name": "test_text_is_escaped_not_executable_html",
+      "status": "passed"
+    },
+    {
+      "name": "test_invalid_fact_reference_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_duplicate_ids_and_nonfinite_duration_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_duplicate_json_keys_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_checked_in_demo_is_actual_deterministic_output",
+      "status": "passed"
+    },
+    {
+      "name": "test_existing_subdirectory_is_supported",
+      "status": "passed"
+    }
+  ],
+  "skill_format_validation": "passed_in_utf8_mode",
+  "browser_visual_review": "not_completed_browser_access_host_unavailable",
+  "print_preview": "not_verified",
+  "network_or_account_needed": false,
+  "source_allowlist": [
+    {
+      "path": "examples/shot-cards/generate.py",
+      "bytes": 13478,
+      "sha256": "024b2fb4fffd6ad8ef96ad25d6c487764df3c25083618cd35f00ae90414002af"
+    },
+    {
+      "path": "examples/shot-cards/demo.json",
+      "bytes": 2472,
+      "sha256": "110525ace0fec841636d8bf2caa9a27eac2b9be550457ac59a8a516b6e9d80a8"
+    },
+    {
+      "path": "examples/shot-cards/demo.html",
+      "bytes": 8984,
+      "sha256": "1a049db63bcbeba02e3e832e25a78887f58d0a48f979f2dda89674f9f072313c"
+    },
+    {
+      "path": "examples/shot-cards/README.md",
+      "bytes": 4632,
+      "sha256": "1286f90d3c3cfdfd47f9f2dcdff3e014ba5ca64aca02fdd99eb76eed6b5082d3"
+    },
+    {
+      "path": "examples/shot-cards/tests/test_generate.py",
+      "bytes": 6836,
+      "sha256": "ce772e37b3cf4a99cbf77881d16a0b4c477f2999c36b3d1408baa179fbef8e48"
+    },
+    {
+      "path": "examples/shot-cards/.gitignore",
+      "bytes": 39,
+      "sha256": "90119e4c47dc31d0190ba7ebc716edd7586082da12d50fd207e750419a40a7d2"
+    },
+    {
+      "path": "skills/reference-to-shot-cards/SKILL.md",
+      "bytes": 4506,
+      "sha256": "8dd53678f93a53c595b76c6b5f11db33b2694cdae268a49a9785d4ae9e2667f9"
+    },
+    {
+      "path": "skills/reference-to-shot-cards/agents/openai.yaml",
+      "bytes": 325,
+      "sha256": "24d1c9a5516d156fccc72dde293092255c0028fea908fc972c62c6236ee37e18"
+    }
+  ]
+}

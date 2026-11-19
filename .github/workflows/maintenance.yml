@@ -1,0 +1,89 @@
+name: Public package maintenance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Offline checks or full local restore drill
+        type: choice
+        options: [weekly, monthly]
+        default: weekly
+  schedule:
+    - cron: '17 2 * * 2' # Tuesday 10:17 Asia/Shanghai
+    - cron: '43 2 1 * *' # Month day 1, 10:43 Asia/Shanghai
+
+permissions:
+  contents: read
+
+concurrency:
+  group: maintenance-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  offline-checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.14.3' # local tested baseline; review updates during maintenance
+      - name: Check approved files, links and offline samples; restore monthly
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          REQUESTED_MODE: ${{ inputs.mode }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        shell: bash
+        run: |
+          mode=weekly
+          if [[ "$SCHEDULE" == '43 2 1 * *' ]] || { [[ "$EVENT_NAME" == workflow_dispatch ]] && [[ "$REQUESTED_MODE" == monthly ]]; }; then
+            mode=monthly
+          fi
+          python -B -X utf8 tools/maintain.py "$mode" --root . --config maintenance.json --out "$RUNNER_TEMP/maintenance-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Preserve readable report in run summary
+        if: always()
+        shell: bash
+        run: |
+          report="$RUNNER_TEMP/maintenance-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT/report.md"
+          if [[ -f "$report" ]]; then
+            cat "$report" >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf '%s\n' 'Maintenance did not reach report creation. Inspect the failed step logs.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  failure-issue:
+    needs: offline-checks
+    if: >-
+      always() && needs.offline-checks.result == 'failure' &&
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') &&
+      vars.MAINTENANCE_ISSUES == 'enabled'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      issues: write
+    concurrency:
+      group: maintenance-failure-issue
+      cancel-in-progress: false
+    steps:
+      # No checkout and no repository code in this write-permission job.
+      - name: Open one stable issue if none is open
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        shell: bash
+        run: |
+          existing=$(gh api --paginate "/repos/$GH_REPO/issues?state=open&per_page=100" --jq '.[] | select(.pull_request == null and .title == "[maintenance:offline-gate] 维护检查失败") | .html_url')
+          if [[ -n "$existing" ]]; then
+            printf '%s\n' "Existing maintenance issue: $existing"
+            exit 0
+          fi
+          printf '检查失败，请由负责人查看本次日志和报告，按影响派工，经独立复核后修复。\n\n%s\n\n稳定编号：maintenance:offline-gate。没有自动调用收费模型。\n' "$RUN_URL" > "$RUNNER_TEMP/maintenance-issue.md"
+          gh issue create --repo "$GH_REPO" --title '[maintenance:offline-gate] 维护检查失败' --body-file "$RUNNER_TEMP/maintenance-issue.md"

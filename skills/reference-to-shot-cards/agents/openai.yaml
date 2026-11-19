@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考拆解与实拍拍摄卡"
+  short_description: "把参考的观看结构换成自有产品的真实动作，生成可浏览、可打印的逐镜拍摄卡"
+  default_prompt: "请使用 $reference-to-shot-cards，依据我的参考和已核产品信息，制作可执行的实拍拍摄卡。"

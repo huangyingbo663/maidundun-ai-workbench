@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: '02:17'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 3
+# The offline maintenance engine has no pip dependencies. Add actual public
+# package ecosystems only after the final dependency files have been reviewed.
+# Version PR scheduling does not prove vulnerability alerts are enabled.
