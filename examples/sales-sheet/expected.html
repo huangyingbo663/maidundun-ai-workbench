@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>销售确认单 · 演示 v1</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f1efe9;color:#263430;font:16px/1.55 system-ui,sans-serif}
+main{width:min(100%,800px);margin:2rem auto;background:white;padding:clamp(16px,5vw,52px)}
+h1{margin:0;color:#244b42;font-size:clamp(30px,7vw,50px)}header p{margin:.3em 0 1.7em}
+table{border-collapse:collapse;width:100%;table-layout:fixed;font-variant-numeric:tabular-nums}
+th,td{padding:.65em .25em;border-bottom:1px solid #cbcfc9;overflow-wrap:anywhere;text-align:right}
+th:first-child,td:first-child{width:8%;text-align:left}th:nth-child(2){width:34%;text-align:left}
+thead{color:#1f5345}small{display:block;font-size:.85em;font-weight:normal;color:#495751}
+footer{margin:1.5rem 0 0 auto;max-width:340px}footer p{display:flex;justify-content:space-between;gap:1em;margin:.45em 0}
+.total{color:#16493a;border-top:2px solid;padding-top:.55em;font-size:1.2em}
+@media(max-width:480px){main{margin:0 auto}table{font-size:13px}}
+@page{size:A4;margin:14mm}@media print{body,main{background:white}main{margin:0;width:100%;padding:0}thead{display:table-header-group}tr,footer{break-inside:avoid}}
+</style><main><header><h1>销售确认单</h1><p>2025-04-16　·　版本 演示 v1　·　人民币</p></header>
+<table aria-label="商品明细"><thead><tr><th>行</th><th>商品与规格</th><th>数量</th><th>单价</th><th>小计</th></tr></thead>
+<tbody><tr><td>1</td><th scope='row'>微光笔记本<small>A6 · 单本</small></th><td>3</td><td>¥8.35</td><td>¥25.05</td></tr>
+<tr><td>2</td><th scope='row'>纸帆书签<small>双枚装 · 一份</small></th><td>4</td><td>¥2.10</td><td>¥8.40</td></tr></tbody></table><footer><p>货款小计 <b>¥33.45</b></p><p class='total'>运费另算</p><p>待运费确认后再核对总金额。</p></footer></main></html>

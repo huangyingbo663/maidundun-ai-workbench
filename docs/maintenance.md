@@ -14,7 +14,7 @@
 python -B -X utf8 tools/maintain.py weekly --root . --out ../weekly-check-v1
 ```
 
-结果保存在新目录 `weekly-check-v1`。打开 `report.md` 看结论，`report.json` 供工具读取。检查会核对公开文件清单、文件内容、本地链接，并真实运行[镜头卡示例](../examples/shot-cards/README.md)，同时复算门店提货与团购核销。三个示例分别与随包的 HTML、文本或 JSON 预期结果比较。执行环境在报告目录内，不覆盖项目中的示例。
+结果保存在新目录 `weekly-check-v1`。打开 `report.md` 看结论，`report.json` 供工具读取。检查会核对公开文件清单、文件内容、本地链接，并真实运行[镜头卡示例](../examples/shot-cards/README.md)，同时复算门店提货与团购核销。设计交付的两项工具会重新生成培训任务单和销售确认单。五个示例均与随包的预期文件比较。执行环境在报告目录内，不覆盖项目中的示例。
 
 退出码 `0` 表示本次本地检查通过，`1` 表示检查失败，`2` 表示路径或运行参数不合适。输出目录已存在时，请用 v2、v3 等新名字，保留旧报告。
 

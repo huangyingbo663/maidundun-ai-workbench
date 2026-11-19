@@ -2,6 +2,7 @@
 
 This collection comes from the content and retail operations of a neighborhood bakery. For store operations, use the offline inventory and voucher examples or the worked marketing cases. Choose a format, adapt the instructions to your own facts and images, and review the result using the method card. The detailed guides are in Chinese.
 
+- [Design, documents and training deliveries](docs/design-delivery.md) · [Sales confirmation sheet](examples/sales-sheet/README.md) · [Training worksheet](examples/training-sheet/README.md)
 - [Store operations and marketing](docs/store-operations.md) · [Stock pick list](examples/stock-pick/README.md) · [Voucher reconciliation](examples/voucher-review/README.md)
 - [Six formats and sixteen methods](docs/content-paths.md)
 - [Reference discovery and analysis](docs/research-radar.md)
