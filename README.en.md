@@ -2,6 +2,7 @@
 
 This collection comes from the content and retail operations of a neighborhood bakery. For store operations, use the offline inventory and voucher examples or the worked marketing cases. Choose a format, adapt the instructions to your own facts and images, and review the result using the method card. The detailed guides are in Chinese.
 
+- [Team coordination and handoff](docs/team-collaboration.md) · [Assign one writer per file](examples/work-brief/README.md) · [Verify a handoff](examples/handoff-check/README.md) · [Reusable team skill](skills/team-handoff/SKILL.md)
 - [Office and repetitive tasks](docs/office-automation.md) · [Verify a copied folder](examples/copy-check/README.md) · [Turn subtitles into timestamped notes](examples/subtitle-notes/README.md)
 - [Design, documents and training deliveries](docs/design-delivery.md) · [Sales confirmation sheet](examples/sales-sheet/README.md) · [Training worksheet](examples/training-sheet/README.md)
 - [Store operations and marketing](docs/store-operations.md) · [Stock pick list](examples/stock-pick/README.md) · [Voucher reconciliation](examples/voucher-review/README.md)

@@ -1,0 +1,48 @@
+{
+  "goal": "交接周末阅读活动指引卡的文字、版式与现场核对。",
+  "can_close": false,
+  "items": [
+    {
+      "id": "copy",
+      "owner": "writer",
+      "reviewer": "checker",
+      "gate": "file",
+      "criterion": "逐条核对领取地点、体验位置和归还地点，读者能按顺序走完。",
+      "artifact": "artifacts/guide.md",
+      "receipt": "reviews/guide.json",
+      "actual_sha256": "d71f25ea9e236a5e0acbea8ff41bd6d8813a57b363350522749f2aa8242fda4e",
+      "state": "verified",
+      "reason": "逐行读过三步。第一步到咨询台领取，第二步到入口旁的阅读区，第三步回咨询台归还；地点和顺序均清楚。",
+      "next_owner": null,
+      "next_action": "保留这一版产物及其复核记录。"
+    },
+    {
+      "id": "layout",
+      "owner": "designer",
+      "reviewer": "checker",
+      "gate": "file",
+      "criterion": "版面尺寸与展示架的实测可用尺寸相符。",
+      "artifact": "artifacts/layout.md",
+      "receipt": "reviews/layout.json",
+      "actual_sha256": null,
+      "state": "blocked",
+      "reason": "展示架的可用尺寸尚未提供。",
+      "next_owner": "designer",
+      "next_action": "向场地协调者取得展示架的宽和高，记录来源后再排版。"
+    },
+    {
+      "id": "onsite",
+      "owner": "host",
+      "reviewer": "checker",
+      "gate": "human",
+      "criterion": "现场人员站在入口能看见指引卡，留下观察位置和所见内容。",
+      "artifact": "artifacts/site-note.md",
+      "receipt": "reviews/site.json",
+      "actual_sha256": null,
+      "state": "waiting_human",
+      "reason": "尚未取得有内容的现场观察记录，请检查文件及文本编码。",
+      "next_owner": "host",
+      "next_action": "由现场人员站到入口查看，将观察位置和所见内容写入现场记录。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "goal": "交接周末阅读活动指引卡的文字、版式与现场核对。",
+  "tasks": [
+    {
+      "id": "copy",
+      "owner": "writer",
+      "reviewer": "checker",
+      "criterion": "逐条核对领取地点、体验位置和归还地点，读者能按顺序走完。",
+      "gate": "file",
+      "artifact": "artifacts/guide.md",
+      "receipt": "reviews/guide.json",
+      "blocker": null,
+      "next": "打开指引卡，按顺序核对咨询台、入口旁阅读区和归还地点。"
+    },
+    {
+      "id": "layout",
+      "owner": "designer",
+      "reviewer": "checker",
+      "criterion": "版面尺寸与展示架的实测可用尺寸相符。",
+      "gate": "file",
+      "artifact": "artifacts/layout.md",
+      "receipt": "reviews/layout.json",
+      "blocker": "展示架的可用尺寸尚未提供。",
+      "next": "向场地协调者取得展示架的宽和高，记录来源后再排版。"
+    },
+    {
+      "id": "onsite",
+      "owner": "host",
+      "reviewer": "checker",
+      "criterion": "现场人员站在入口能看见指引卡，留下观察位置和所见内容。",
+      "gate": "human",
+      "artifact": "artifacts/site-note.md",
+      "receipt": "reviews/site.json",
+      "blocker": null,
+      "next": "由现场人员站到入口查看，将观察位置和所见内容写入现场记录。"
+    }
+  ]
+}
