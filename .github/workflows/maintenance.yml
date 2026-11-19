@@ -47,6 +47,12 @@ jobs:
             mode=monthly
           fi
           python -B -X utf8 tools/maintain.py "$mode" --root . --config maintenance.json --out "$RUNNER_TEMP/maintenance-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Run offline example tests
+        shell: bash
+        run: |
+          for suite in examples/shot-cards/tests examples/stock-pick/tests examples/voucher-review/tests; do
+            python -B -X utf8 -m unittest discover -s "$suite"
+          done
       - name: Preserve readable report in run summary
         if: always()
         shell: bash

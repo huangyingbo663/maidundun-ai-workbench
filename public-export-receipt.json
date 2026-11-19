@@ -18,30 +18,6 @@
       "sha256_lf": "83accfc67813b60695c011fda62232fd8f84fdf14a6ff22976110b6edaee7ba8"
     },
     {
-      "destination": ".gitignore",
-      "sha256": "4848a7ca59947aee1a59d5358190af64382e51b679649b5a6a2d421c8ac7a9eb",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "4848a7ca59947aee1a59d5358190af64382e51b679649b5a6a2d421c8ac7a9eb"
-    },
-    {
-      "destination": "LICENSE",
-      "sha256": "4b2bb3c25f8cc9e9d5a73fa8849e23abf4cda6a8ef86db77d98eadd0d992162d",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "4b2bb3c25f8cc9e9d5a73fa8849e23abf4cda6a8ef86db77d98eadd0d992162d"
-    },
-    {
-      "destination": "maintenance.json",
-      "sha256": "f56f024bd73c3ed014441dfcb3355fa18494f1ce01e76dab5f024118c9e5d02e",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "f56f024bd73c3ed014441dfcb3355fa18494f1ce01e76dab5f024118c9e5d02e"
-    },
-    {
       "destination": ".github/dependabot.yml",
       "sha256": "250757ec68fbe378871ff38c1962bc4889a7416f740a88efecae399ef0310e0e",
       "license": "MIT",
@@ -51,83 +27,19 @@
     },
     {
       "destination": ".github/workflows/maintenance.yml",
-      "sha256": "056dda6b73611471c0b95ab5bbeeeaf407cfcad42c73361fcc5c9696231868b4",
+      "sha256": "45b8e8dc87a2f02adff7ca7d73e0f6c788f6e2f1fc9149508d617e16e2b676fc",
       "license": "MIT",
       "purpose": "可运行示例、工具、配置或许可文本",
       "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "056dda6b73611471c0b95ab5bbeeeaf407cfcad42c73361fcc5c9696231868b4"
+      "sha256_lf": "45b8e8dc87a2f02adff7ca7d73e0f6c788f6e2f1fc9149508d617e16e2b676fc"
     },
     {
-      "destination": "tools/maintain.py",
-      "sha256": "57a6d4562c9adda8f7a5d5e58af265e28e8dad97e64961d7aa389a08ed027b01",
+      "destination": ".gitignore",
+      "sha256": "4848a7ca59947aee1a59d5358190af64382e51b679649b5a6a2d421c8ac7a9eb",
       "license": "MIT",
       "purpose": "可运行示例、工具、配置或许可文本",
       "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "57a6d4562c9adda8f7a5d5e58af265e28e8dad97e64961d7aa389a08ed027b01"
-    },
-    {
-      "destination": "examples/shot-cards/generate.py",
-      "sha256": "024b2fb4fffd6ad8ef96ad25d6c487764df3c25083618cd35f00ae90414002af",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "024b2fb4fffd6ad8ef96ad25d6c487764df3c25083618cd35f00ae90414002af"
-    },
-    {
-      "destination": "examples/shot-cards/demo.json",
-      "sha256": "110525ace0fec841636d8bf2caa9a27eac2b9be550457ac59a8a516b6e9d80a8",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "110525ace0fec841636d8bf2caa9a27eac2b9be550457ac59a8a516b6e9d80a8"
-    },
-    {
-      "destination": "examples/shot-cards/demo.html",
-      "sha256": "1a049db63bcbeba02e3e832e25a78887f58d0a48f979f2dda89674f9f072313c",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "1a049db63bcbeba02e3e832e25a78887f58d0a48f979f2dda89674f9f072313c"
-    },
-    {
-      "destination": "examples/shot-cards/tests/test_generate.py",
-      "sha256": "ce772e37b3cf4a99cbf77881d16a0b4c477f2999c36b3d1408baa179fbef8e48",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "ce772e37b3cf4a99cbf77881d16a0b4c477f2999c36b3d1408baa179fbef8e48"
-    },
-    {
-      "destination": "examples/shot-cards/.gitignore",
-      "sha256": "90119e4c47dc31d0190ba7ebc716edd7586082da12d50fd207e750419a40a7d2",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "90119e4c47dc31d0190ba7ebc716edd7586082da12d50fd207e750419a40a7d2"
-    },
-    {
-      "destination": "skills/reference-to-shot-cards/agents/openai.yaml",
-      "sha256": "24d1c9a5516d156fccc72dde293092255c0028fea908fc972c62c6236ee37e18",
-      "license": "MIT",
-      "purpose": "可运行示例、工具、配置或许可文本",
-      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
-      "sha256_lf": "24d1c9a5516d156fccc72dde293092255c0028fea908fc972c62c6236ee37e18"
-    },
-    {
-      "destination": "README.md",
-      "sha256": "c7c5c166dcaad3ebe9ed363bdd48924185f7d035d0a8c648e0f79e9d2c25276e",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "c7c5c166dcaad3ebe9ed363bdd48924185f7d035d0a8c648e0f79e9d2c25276e"
-    },
-    {
-      "destination": "README.en.md",
-      "sha256": "bd629e750bae8139cad2b0a092000b8656f569de6c704a383d8865ace705eecb",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "bd629e750bae8139cad2b0a092000b8656f569de6c704a383d8865ace705eecb"
+      "sha256_lf": "4848a7ca59947aee1a59d5358190af64382e51b679649b5a6a2d421c8ac7a9eb"
     },
     {
       "destination": "ATTRIBUTION.md",
@@ -138,6 +50,14 @@
       "sha256_lf": "2ecf80dd553a7b2395477f989532c61f481fdb1457ae3a5a198c92d154a093b4"
     },
     {
+      "destination": "CHANGELOG.md",
+      "sha256": "c43d8202c53a794b8604de6b9e14578b65a16a4a0f2696d03abd8433c2cbcbe9",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "c43d8202c53a794b8604de6b9e14578b65a16a4a0f2696d03abd8433c2cbcbe9"
+    },
+    {
       "destination": "CONTRIBUTING.md",
       "sha256": "3e1c0c42807d9485c1355c48e4ab5f193e4c04b6c0ee8d7a4e05ac8ad9041899",
       "license": "CC-BY-4.0",
@@ -146,60 +66,50 @@
       "sha256_lf": "3e1c0c42807d9485c1355c48e4ab5f193e4c04b6c0ee8d7a4e05ac8ad9041899"
     },
     {
-      "destination": "CHANGELOG.md",
-      "sha256": "33a2f6e4d6eb0ed8be3e3cc4ca6b96a5dc4ac3fb90487359c3fdd7c7917f27e4",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "33a2f6e4d6eb0ed8be3e3cc4ca6b96a5dc4ac3fb90487359c3fdd7c7917f27e4"
+      "destination": "LICENSE",
+      "sha256": "4b2bb3c25f8cc9e9d5a73fa8849e23abf4cda6a8ef86db77d98eadd0d992162d",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "4b2bb3c25f8cc9e9d5a73fa8849e23abf4cda6a8ef86db77d98eadd0d992162d"
     },
     {
-      "destination": "docs/content-paths.md",
-      "sha256": "2a8acf9fadd1d9303e5e54293c70ca2dcd102ababba9a2ec5fd20b5afeeafd85",
+      "destination": "README.en.md",
+      "sha256": "dc4e29ebca81b872e105f05b4b8fa2066c936a6ae1b9e69d71f977bf0ce115ed",
       "license": "CC-BY-4.0",
       "purpose": "项目说明、方法卡、提示词或维护手册",
       "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "2a8acf9fadd1d9303e5e54293c70ca2dcd102ababba9a2ec5fd20b5afeeafd85"
+      "sha256_lf": "dc4e29ebca81b872e105f05b4b8fa2066c936a6ae1b9e69d71f977bf0ce115ed"
     },
     {
-      "destination": "docs/research-radar.md",
-      "sha256": "24fe8af8aa582da67591ae6d155292a1aa512251fc4f9ae1c539dfdb287d2c8c",
+      "destination": "README.md",
+      "sha256": "f7b1920b1424e9441f0d8642f350b2a3b465d22b920c7e0c4e95efe3bddf373a",
       "license": "CC-BY-4.0",
       "purpose": "项目说明、方法卡、提示词或维护手册",
       "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "24fe8af8aa582da67591ae6d155292a1aa512251fc4f9ae1c539dfdb287d2c8c"
+      "sha256_lf": "f7b1920b1424e9441f0d8642f350b2a3b465d22b920c7e0c4e95efe3bddf373a"
     },
     {
-      "destination": "docs/graphic-reference.md",
-      "sha256": "d32fbf993da6e59802e27ae3b50ce2caccffbde7a370d03566304f98869483b8",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "d32fbf993da6e59802e27ae3b50ce2caccffbde7a370d03566304f98869483b8"
+      "destination": "assets/content-workbench.png",
+      "sha256": "628ab91e1d70b1b67bd96b0e5e0d1da9ea802b15078d83ae443d05f905f1c977",
+      "license": "project-brand",
+      "purpose": "项目标记或首页横幅",
+      "rights_evidence": "本项目自有品牌设计，见署名和使用说明"
     },
     {
-      "destination": "docs/video-reference.md",
-      "sha256": "3ded455e45a3912d76d08fb0ea50ca6b180070d5191de96d71bd02856d7d5ce2",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "3ded455e45a3912d76d08fb0ea50ca6b180070d5191de96d71bd02856d7d5ce2"
+      "destination": "assets/project-mark.svg",
+      "sha256": "a49586dcd78944800dd3ded153d7c6851a789341409fc31c65ede615dfca5465",
+      "license": "project-brand",
+      "purpose": "项目标记或首页横幅",
+      "rights_evidence": "本项目自有品牌设计，见署名和使用说明",
+      "sha256_lf": "a49586dcd78944800dd3ded153d7c6851a789341409fc31c65ede615dfca5465"
     },
     {
-      "destination": "docs/filming-remake.md",
-      "sha256": "55a81e5ffdf26062fb3e330f74a76874295adf6c2617657ac06bf806f0c1f850",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "55a81e5ffdf26062fb3e330f74a76874295adf6c2617657ac06bf806f0c1f850"
-    },
-    {
-      "destination": "docs/spoken-content.md",
-      "sha256": "5d09f59740e34959f8796735e6ad7f579f4dbd6b3404c588c258cd12c3e68742",
-      "license": "CC-BY-4.0",
-      "purpose": "项目说明、方法卡、提示词或维护手册",
-      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "5d09f59740e34959f8796735e6ad7f579f4dbd6b3404c588c258cd12c3e68742"
+      "destination": "assets/workbench.png",
+      "sha256": "233a188e60b0080cfe80acaef7370cc0ca118b25f51c03fa823767644145c1b9",
+      "license": "project-brand",
+      "purpose": "项目品牌首页图",
+      "rights_evidence": "原创品牌排版，仅分发渲染图像"
     },
     {
       "destination": "docs/ai-drama.md",
@@ -210,6 +120,14 @@
       "sha256_lf": "7159c8c1f7268ec4d7d2728cf983dc6819e0e519a18a6f1b036a9454b07ec9e0"
     },
     {
+      "destination": "docs/content-paths.md",
+      "sha256": "2a8acf9fadd1d9303e5e54293c70ca2dcd102ababba9a2ec5fd20b5afeeafd85",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "2a8acf9fadd1d9303e5e54293c70ca2dcd102ababba9a2ec5fd20b5afeeafd85"
+    },
+    {
       "destination": "docs/extra-methods.md",
       "sha256": "0eddba4800d62147064eddf9b4a754dc99e794ffce417c06632da4647701b551",
       "license": "CC-BY-4.0",
@@ -218,12 +136,84 @@
       "sha256_lf": "0eddba4800d62147064eddf9b4a754dc99e794ffce417c06632da4647701b551"
     },
     {
-      "destination": "docs/maintenance.md",
-      "sha256": "4cba94dab91eff783715b7e967c3659c62956fdeeb10cd3836165fca009eb019",
+      "destination": "docs/filming-remake.md",
+      "sha256": "55a81e5ffdf26062fb3e330f74a76874295adf6c2617657ac06bf806f0c1f850",
       "license": "CC-BY-4.0",
       "purpose": "项目说明、方法卡、提示词或维护手册",
       "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
-      "sha256_lf": "4cba94dab91eff783715b7e967c3659c62956fdeeb10cd3836165fca009eb019"
+      "sha256_lf": "55a81e5ffdf26062fb3e330f74a76874295adf6c2617657ac06bf806f0c1f850"
+    },
+    {
+      "destination": "docs/graphic-reference.md",
+      "sha256": "d32fbf993da6e59802e27ae3b50ce2caccffbde7a370d03566304f98869483b8",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "d32fbf993da6e59802e27ae3b50ce2caccffbde7a370d03566304f98869483b8"
+    },
+    {
+      "destination": "docs/maintenance.md",
+      "sha256": "95fab9a8586f1c997f1087e9e0ac52519462cd53e05a2697817ae0afc1799bc1",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "95fab9a8586f1c997f1087e9e0ac52519462cd53e05a2697817ae0afc1799bc1"
+    },
+    {
+      "destination": "docs/research-radar.md",
+      "sha256": "24fe8af8aa582da67591ae6d155292a1aa512251fc4f9ae1c539dfdb287d2c8c",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "24fe8af8aa582da67591ae6d155292a1aa512251fc4f9ae1c539dfdb287d2c8c"
+    },
+    {
+      "destination": "docs/spoken-content.md",
+      "sha256": "5d09f59740e34959f8796735e6ad7f579f4dbd6b3404c588c258cd12c3e68742",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "5d09f59740e34959f8796735e6ad7f579f4dbd6b3404c588c258cd12c3e68742"
+    },
+    {
+      "destination": "docs/store-bundle-planning.md",
+      "sha256": "5aa00729be3b16a11b5b0cfb9efc0ea3a9fb512c3cbb71879de5513cf48d83d6",
+      "license": "CC-BY-4.0",
+      "purpose": "经营方法与原创虚构示例说明",
+      "rights_evidence": "原创公开方法文档，案例独立编写",
+      "sha256_lf": "5aa00729be3b16a11b5b0cfb9efc0ea3a9fb512c3cbb71879de5513cf48d83d6"
+    },
+    {
+      "destination": "docs/store-operations.md",
+      "sha256": "b60a27b560878b5e870cd8eb291a69b542acb842524b34171c7a326118bdcf11",
+      "license": "CC-BY-4.0",
+      "purpose": "经营方法与原创虚构示例说明",
+      "rights_evidence": "原创公开方法文档，案例独立编写",
+      "sha256_lf": "b60a27b560878b5e870cd8eb291a69b542acb842524b34171c7a326118bdcf11"
+    },
+    {
+      "destination": "docs/store-promo-baskets.md",
+      "sha256": "83aa9c587f71d0aaa20d86ec8ec2d7606307b7b5baebac748dd5b121acb01e1d",
+      "license": "CC-BY-4.0",
+      "purpose": "经营方法与原创虚构示例说明",
+      "rights_evidence": "原创公开方法文档，案例独立编写",
+      "sha256_lf": "83aa9c587f71d0aaa20d86ec8ec2d7606307b7b5baebac748dd5b121acb01e1d"
+    },
+    {
+      "destination": "docs/store-video-fit.md",
+      "sha256": "ffd1fd7404249c5de2d3d54c771e193b5508150a1c42e5485b91efb75822f6f7",
+      "license": "CC-BY-4.0",
+      "purpose": "经营方法与原创虚构示例说明",
+      "rights_evidence": "原创公开方法文档，案例独立编写",
+      "sha256_lf": "ffd1fd7404249c5de2d3d54c771e193b5508150a1c42e5485b91efb75822f6f7"
+    },
+    {
+      "destination": "docs/video-reference.md",
+      "sha256": "3ded455e45a3912d76d08fb0ea50ca6b180070d5191de96d71bd02856d7d5ce2",
+      "license": "CC-BY-4.0",
+      "purpose": "项目说明、方法卡、提示词或维护手册",
+      "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
+      "sha256_lf": "3ded455e45a3912d76d08fb0ea50ca6b180070d5191de96d71bd02856d7d5ce2"
     },
     {
       "destination": "docs/方法01-小红书实拍图文.md",
@@ -242,12 +232,52 @@
       "sha256_lf": "c8dfc3e3a7a2e0332c74aa40f927449b3d002085a41be590d737b956bad58322"
     },
     {
+      "destination": "examples/shot-cards/.gitignore",
+      "sha256": "90119e4c47dc31d0190ba7ebc716edd7586082da12d50fd207e750419a40a7d2",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "90119e4c47dc31d0190ba7ebc716edd7586082da12d50fd207e750419a40a7d2"
+    },
+    {
       "destination": "examples/shot-cards/README.md",
       "sha256": "1286f90d3c3cfdfd47f9f2dcdff3e014ba5ca64aca02fdd99eb76eed6b5082d3",
       "license": "CC-BY-4.0",
       "purpose": "项目说明、方法卡、提示词或维护手册",
       "rights_evidence": "麦囤囤 · AI工坊原创整理，已替换内部材料为公开说明",
       "sha256_lf": "1286f90d3c3cfdfd47f9f2dcdff3e014ba5ca64aca02fdd99eb76eed6b5082d3"
+    },
+    {
+      "destination": "examples/shot-cards/demo.html",
+      "sha256": "1a049db63bcbeba02e3e832e25a78887f58d0a48f979f2dda89674f9f072313c",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "1a049db63bcbeba02e3e832e25a78887f58d0a48f979f2dda89674f9f072313c"
+    },
+    {
+      "destination": "examples/shot-cards/demo.json",
+      "sha256": "110525ace0fec841636d8bf2caa9a27eac2b9be550457ac59a8a516b6e9d80a8",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "110525ace0fec841636d8bf2caa9a27eac2b9be550457ac59a8a516b6e9d80a8"
+    },
+    {
+      "destination": "examples/shot-cards/generate.py",
+      "sha256": "024b2fb4fffd6ad8ef96ad25d6c487764df3c25083618cd35f00ae90414002af",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "024b2fb4fffd6ad8ef96ad25d6c487764df3c25083618cd35f00ae90414002af"
+    },
+    {
+      "destination": "examples/shot-cards/tests/test_generate.py",
+      "sha256": "ce772e37b3cf4a99cbf77881d16a0b4c477f2999c36b3d1408baa179fbef8e48",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "ce772e37b3cf4a99cbf77881d16a0b4c477f2999c36b3d1408baa179fbef8e48"
     },
     {
       "destination": "examples/shot-cards/verification.json",
@@ -258,6 +288,94 @@
       "sha256_lf": "428085573e6446312fd47220f72ba5233f56e82def565a2a77ac88530e07e4d3"
     },
     {
+      "destination": "examples/stock-pick/README.md",
+      "sha256": "9d12e5da340ed90f40ee86330a36fdb210764a2c2186615527403c76996aa7f2",
+      "license": "CC-BY-4.0",
+      "purpose": "经营方法与原创虚构示例说明",
+      "rights_evidence": "原创公开方法文档，案例独立编写",
+      "sha256_lf": "9d12e5da340ed90f40ee86330a36fdb210764a2c2186615527403c76996aa7f2"
+    },
+    {
+      "destination": "examples/stock-pick/demo.json",
+      "sha256": "4bbdf4e0ec593b6265e8f44987b5b69e507a89797e287d9125571853b17f0482",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "4bbdf4e0ec593b6265e8f44987b5b69e507a89797e287d9125571853b17f0482"
+    },
+    {
+      "destination": "examples/stock-pick/expected.txt",
+      "sha256": "2dd1b1f42b5303e909c10a0b3333438e89aebcf29019ec81c466d3aee5e937b3",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "2dd1b1f42b5303e909c10a0b3333438e89aebcf29019ec81c466d3aee5e937b3"
+    },
+    {
+      "destination": "examples/stock-pick/plan.py",
+      "sha256": "0dc052dde5adb3578a0d3e6253aa4ef80890d48922742c2d6e498a3090aad837",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "0dc052dde5adb3578a0d3e6253aa4ef80890d48922742c2d6e498a3090aad837"
+    },
+    {
+      "destination": "examples/stock-pick/tests/test_plan.py",
+      "sha256": "920f583c8f42fbf7348dc88d597eb949e881789e9f9dcd6d593ce2fd2c78f7a1",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "920f583c8f42fbf7348dc88d597eb949e881789e9f9dcd6d593ce2fd2c78f7a1"
+    },
+    {
+      "destination": "examples/voucher-review/README.md",
+      "sha256": "31eddd17e4d17a436b7caca983a6f9427af9054ac06a66e9b9c9f6fa36dd0f0a",
+      "license": "CC-BY-4.0",
+      "purpose": "经营方法与原创虚构示例说明",
+      "rights_evidence": "原创公开方法文档，案例独立编写",
+      "sha256_lf": "31eddd17e4d17a436b7caca983a6f9427af9054ac06a66e9b9c9f6fa36dd0f0a"
+    },
+    {
+      "destination": "examples/voucher-review/demo.json",
+      "sha256": "f1aac3ed13988df71b977ebadaf151ecb525ac3c3d8c5b20317dcf4380b927a1",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "f1aac3ed13988df71b977ebadaf151ecb525ac3c3d8c5b20317dcf4380b927a1"
+    },
+    {
+      "destination": "examples/voucher-review/expected.json",
+      "sha256": "e11b3c0af1be6ac8340007d714972290414637d8705bd9c0ee002e42372f9c02",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "e11b3c0af1be6ac8340007d714972290414637d8705bd9c0ee002e42372f9c02"
+    },
+    {
+      "destination": "examples/voucher-review/reconcile.py",
+      "sha256": "70eee049a6b6910b4b4c635184226ed15965a471645e0921f73131e65bf972af",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "70eee049a6b6910b4b4c635184226ed15965a471645e0921f73131e65bf972af"
+    },
+    {
+      "destination": "examples/voucher-review/tests/test_review.py",
+      "sha256": "abff8c128378990abc1378c98894833414123513b3d7032d69310d1a6eb5c2e1",
+      "license": "MIT",
+      "purpose": "离线工具、测试与虚构输入输出",
+      "rights_evidence": "本项目原创实现，示例数据独立构造",
+      "sha256_lf": "abff8c128378990abc1378c98894833414123513b3d7032d69310d1a6eb5c2e1"
+    },
+    {
+      "destination": "maintenance.json",
+      "sha256": "e37c256699f15f6283b2babff14e1bb7879d4f9e0b8e6d4adbb09e879c502e8d",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "e37c256699f15f6283b2babff14e1bb7879d4f9e0b8e6d4adbb09e879c502e8d"
+    },
+    {
       "destination": "skills/reference-to-shot-cards/SKILL.md",
       "sha256": "8dd53678f93a53c595b76c6b5f11db33b2694cdae268a49a9785d4ae9e2667f9",
       "license": "CC-BY-4.0",
@@ -266,22 +384,23 @@
       "sha256_lf": "8dd53678f93a53c595b76c6b5f11db33b2694cdae268a49a9785d4ae9e2667f9"
     },
     {
-      "destination": "assets/project-mark.svg",
-      "sha256": "a49586dcd78944800dd3ded153d7c6851a789341409fc31c65ede615dfca5465",
-      "license": "project-brand",
-      "purpose": "项目标记或首页横幅",
-      "rights_evidence": "本项目自有品牌设计，见署名和使用说明",
-      "sha256_lf": "a49586dcd78944800dd3ded153d7c6851a789341409fc31c65ede615dfca5465"
+      "destination": "skills/reference-to-shot-cards/agents/openai.yaml",
+      "sha256": "24d1c9a5516d156fccc72dde293092255c0028fea908fc972c62c6236ee37e18",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "24d1c9a5516d156fccc72dde293092255c0028fea908fc972c62c6236ee37e18"
     },
     {
-      "destination": "assets/content-workbench.png",
-      "sha256": "628ab91e1d70b1b67bd96b0e5e0d1da9ea802b15078d83ae443d05f905f1c977",
-      "license": "project-brand",
-      "purpose": "项目标记或首页横幅",
-      "rights_evidence": "本项目自有品牌设计，见署名和使用说明"
+      "destination": "tools/maintain.py",
+      "sha256": "57a6d4562c9adda8f7a5d5e58af265e28e8dad97e64961d7aa389a08ed027b01",
+      "license": "MIT",
+      "purpose": "可运行示例、工具、配置或许可文本",
+      "rights_evidence": "本项目编写的公开实现和示例，或者所采用的标准MIT许可文本",
+      "sha256_lf": "57a6d4562c9adda8f7a5d5e58af265e28e8dad97e64961d7aa389a08ed027b01"
     }
   ],
-  "file_count": 35,
+  "file_count": 50,
   "network_used": false,
   "rights_human_review_replaced": false,
   "status": "exported"

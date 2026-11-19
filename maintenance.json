@@ -12,7 +12,16 @@
     "examples/shot-cards/generate.py",
     "examples/shot-cards/demo.json",
     "examples/shot-cards/demo.html",
-    "skills/reference-to-shot-cards/SKILL.md"
+    "skills/reference-to-shot-cards/SKILL.md",
+    "examples/stock-pick/plan.py",
+    "examples/stock-pick/README.md",
+    "examples/stock-pick/demo.json",
+    "examples/stock-pick/expected.txt",
+    "examples/voucher-review/reconcile.py",
+    "examples/voucher-review/README.md",
+    "examples/voucher-review/demo.json",
+    "examples/voucher-review/expected.json",
+    "docs/store-operations.md"
   ],
   "git_restore": "required",
   "samples": [
@@ -20,10 +29,57 @@
       "id": "shot-cards",
       "entrypoint": "examples/shot-cards/generate.py",
       "isolated_cwd": true,
-      "args": ["--input", "{root}/examples/shot-cards/demo.json", "--output", "shot-cards-demo.html"],
+      "args": [
+        "--input",
+        "{root}/examples/shot-cards/demo.json",
+        "--output",
+        "shot-cards-demo.html"
+      ],
       "timeout_seconds": 30,
       "expected_outputs": [
-        {"path": "shot-cards-demo.html", "format": "text-lf", "reference": "examples/shot-cards/demo.html"}
+        {
+          "path": "shot-cards-demo.html",
+          "format": "text-lf",
+          "reference": "examples/shot-cards/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "stock-pick",
+      "entrypoint": "examples/stock-pick/plan.py",
+      "isolated_cwd": true,
+      "args": [
+        "--input",
+        "{root}/examples/stock-pick/demo.json",
+        "--output",
+        "stock-pick.txt"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "stock-pick.txt",
+          "format": "text-lf",
+          "reference": "examples/stock-pick/expected.txt"
+        }
+      ]
+    },
+    {
+      "id": "voucher-review",
+      "entrypoint": "examples/voucher-review/reconcile.py",
+      "isolated_cwd": true,
+      "args": [
+        "--input",
+        "{root}/examples/voucher-review/demo.json",
+        "--output",
+        "voucher-review.json"
+      ],
+      "timeout_seconds": 30,
+      "expected_outputs": [
+        {
+          "path": "voucher-review.json",
+          "format": "canonical-json",
+          "reference": "examples/voucher-review/expected.json"
+        }
       ]
     }
   ]
